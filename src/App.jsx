@@ -5,6 +5,7 @@ import Fragmento from "./components/basicos/Fragmento"
 import Aleatorio from "./components/basicos/Aleatorio"
 import Card from "./components/layout/Card"
 import Familia from "./components/basicos/Familia"
+import FamiliaMembro from "./components/basicos/FamiliaMembro"
 import "./App.css"
 
 
@@ -13,7 +14,9 @@ export default () => (
         <h1>Fundamentos React (Arrow)</h1>
         <div className="Cards">
             <Card titulo="#05 - Família" color="#00C8F8">
-                <Familia sobrenome="Ferreira"></Familia>
+                <Familia sobrenome="Ferreira">
+                    <FamiliaMembro nome="João"></FamiliaMembro>
+                </Familia>
             </Card>
 
             <Card titulo="#04 - Sorteio" color="#FA6900">
