@@ -3,9 +3,9 @@ import React from "react"
 export default props=>{
     return (
         <div>
-            <div>{props.nome}</div>
-            <div>{props.idade}</div>
-            <div>{props.nerd ? "Verdadeiro" : "Falso"}</div>
+            <span>{props.nome} </span>
+            <span>{props.idade} </span>
+            <span>{props.nerd ? "Verdadeiro" : "Falso"}</span>
         </div>
     )
 }
