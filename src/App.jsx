@@ -1,4 +1,5 @@
 import React from "react"
+
 import Primeiro from "./components/basicos/Primeiro"
 import ComParametro from "./components/basicos/ComParametro"
 import Fragmento from "./components/basicos/Fragmento"
@@ -6,16 +7,29 @@ import Aleatorio from "./components/basicos/Aleatorio"
 import Card from "./components/layout/Card"
 import Familia from "./components/basicos/Familia"
 import FamiliaMembro from "./components/basicos/FamiliaMembro"
+import ListaAlunos from "./components/repeticao/ListaAlunos"
+
 import "./App.css"
+import ListaProdutos from "./components/repeticao/ListaProdutos"
 
 
 export default () => (
     <div className="App">
         <h1>Fundamentos React (Arrow)</h1>
         <div className="Cards">
+            <Card titulo="#07 - Lista Produtos Repetição" color="rgb(13, 49, 49)">
+                <ListaProdutos></ListaProdutos>
+            </Card>
+
+            <Card titulo="#06 - Lista Alunos Repetição" color="#FF4C65">
+                <ListaAlunos></ListaAlunos>
+            </Card>
+
             <Card titulo="#05 - Família" color="#00C8F8">
                 <Familia sobrenome="Ferreira">
                     <FamiliaMembro nome="João"></FamiliaMembro>
+                    <FamiliaMembro nome="Maria"></FamiliaMembro>
+                    <FamiliaMembro nome="Tiago"></FamiliaMembro>
                 </Familia>
             </Card>
 
