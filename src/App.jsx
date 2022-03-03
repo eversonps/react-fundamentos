@@ -1,5 +1,6 @@
 import React from "react"
 
+import Mega from "./components/mega/Mega"
 import Primeiro from "./components/basicos/Primeiro"
 import ComParametro from "./components/basicos/ComParametro"
 import Fragmento from "./components/basicos/Fragmento"
@@ -24,6 +25,10 @@ export default () => (
     <div className="App">
         <h1>Fundamentos React (Arrow)</h1>
         <div className="Cards">
+            <Card titulo="#13 - Mega" color="#B9006E">
+                <Mega qtd={8}></Mega>
+            </Card>
+
             <Card titulo="#12 - Contador" color="#424242">
                 <Contador numeroInicial={10}></Contador>
             </Card>
