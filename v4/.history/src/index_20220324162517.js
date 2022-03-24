@@ -11,12 +11,6 @@ ReactDOM.render(
             <Membro nome="Maria"></Membro>
             <Membro nome="Guilherme"></Membro>
         </Familia>
-
-        <Familia sobrenome="Arruda">
-            <Membro nome="João" ></Membro>
-            <Membro nome="Maria"></Membro>
-            <Membro nome="Guilherme"></Membro>
-        </Familia>
     </div>,
     elemento
 )

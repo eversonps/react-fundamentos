@@ -12,7 +12,7 @@ ReactDOM.render(
             <Membro nome="Guilherme"></Membro>
         </Familia>
 
-        <Familia sobrenome="Arruda">
+        <Familia sobrenome="Silva">
             <Membro nome="João" ></Membro>
             <Membro nome="Maria"></Membro>
             <Membro nome="Guilherme"></Membro>
