@@ -5,7 +5,7 @@ import Hook from "./componentes/Hook"
 const elemento = document.getElementById("root")
 ReactDOM.render(
     <div>
-        <Hook numero={0}></Hook>
+        <Contador numero={0}></Contador>
     </div>,
     elemento
 )
