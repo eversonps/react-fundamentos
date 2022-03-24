@@ -3,9 +3,6 @@ import React from "react"
 import PrimeiroComponente from "./componentes/PrimeiroComponente"
 
 const elemento = document.getElementById("root")
-ReactDOM.render(
-    <div>
-        <PrimeiroComponente />
-    </div>,
-    elemento
-)
+ReactDOM.render(<div>
+    <PrimeiroComponente></PrimeiroComponente>
+</div>, elemento)
