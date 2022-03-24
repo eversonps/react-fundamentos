@@ -6,7 +6,6 @@ import MultiElementos from "./componentes/MultiElementos"
 const elemento = document.getElementById("root")
 ReactDOM.render(
     <div>
-        <MultiElementos></MultiElementos>
         <CompA valor="Olá, eu sou o A!"></CompA>
         <CompB valor="B na área"></CompB>
     </div>,
