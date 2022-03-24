@@ -18,19 +18,12 @@ export default class Contador extends Component{
         this.setState({numero: this.state.numero - 1})
     }
 
-    alterar = diferenca => {
-        this.setState({numero: this.state.numero + diferenca})
-    }
-
-
     render(){
         return (
             <div>
                 <div>Número: {this.state.numero}</div>
                 <button onClick={this.maisUm}>Inc</button>
                 <button onClick={this.menosUm}>Dec</button>
-                <button onClick={() => this.alterar(10)}>Inc 10</button>
-                <button onClick={() => this.alterar(-10)}>Dec 10</button>
             </div>
         )
     }
