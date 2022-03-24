@@ -6,7 +6,7 @@ import ComponentClasse from "./componentes/ComponenteClasse"
 const elemento = document.getElementById("root")
 ReactDOM.render(
     <div>
-        <ComponentClasse valor="Sou um componente de classe!"></ComponentClasse>
+        <ComponentClasse
         <Pai></Pai>
     </div>,
     elemento
