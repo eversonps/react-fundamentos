@@ -1,11 +1,12 @@
 import ReactDOM from "react-dom"
 import React from "react"
-import Contador from "./componentes/Contador"
+import Pai from "./componentes/Pai"
+import ComponentClasse from "./componentes/ComponenteClasse"
 
 const elemento = document.getElementById("root")
 ReactDOM.render(
     <div>
-        <Contador numero={0}></Contador>
+        <Pai></Pai>
     </div>,
     elemento
 )
