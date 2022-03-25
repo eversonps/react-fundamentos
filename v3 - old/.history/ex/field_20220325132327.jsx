@@ -20,9 +20,9 @@ function mapStateToProps(state){
     }
 }
 
-function mapDispatchToProps(dispatch){
+function mapDispatchToProps(state){
     return bindActionCreators({ changeValue }, dispatch)
 }
 
 
-export default connect(mapStateToProps, mapDispatchToProps)(Field)
+export default connect(mapStateToProps)(Field)

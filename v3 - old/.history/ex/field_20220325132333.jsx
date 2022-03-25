@@ -25,4 +25,4 @@ function mapDispatchToProps(dispatch){
 }
 
 
-export default connect(mapStateToProps, mapDispatchToProps)(Field)
+export default connect(mapStateToProps)(Field)
